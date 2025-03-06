@@ -1,0 +1,11 @@
+---
+title: "Data"
+execute:
+  echo: false
+---
+
+The data presented in the visualizations and open letter on this website come from the Census Bureau. Population and demographic information are presented at the "Zip Code Tabulation Area" (ZCTA) level. More information about Census Bureau datasets and ZCTAs can be found at the links below.
+
+`<a href="https://www.census.gov/data.html"`{=html} `type="button" class="btn btn-dark">`{=html}Census Data</a>
+
+`<a href="https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html"`{=html} `type="button" class="btn btn-dark">`{=html}ZCTAs</a>

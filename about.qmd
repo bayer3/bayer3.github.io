@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+## Hi! My name is Ella Bayer and I am an MS student in the [Geoinformatics](http://www.geo.hunter.cuny.edu/programs/geoinformatics.html) program at Hunter College, NYC. This website was built as part of an assignment for my WebGIS class.
+
+The Assignment: To build our own multi-page website, bring together components from previous labs, and showcase geospatial data.
+
+The Programming: This webpage was built with [RStudio](https://posit.co/download/rstudio-desktop/) and [Quarto](https://quarto.org), using HTML, JavaScript, and CSS languages. It also includes pages originally made in Observable (see: `<a href="open_letter.qmd"`{=html} `type="button" class="btn btn-primary btn-sm">`{=html}Open Letter</a>) and with ArcGIS Online's Dashboard (see: `<a href="map.qmd"`{=html} `type="button" class="btn btn-primary btn-sm">`{=html}Map</a>).

@@ -1,0 +1,17 @@
+---
+title: " "
+execute:
+  echo: false
+---
+
+## Welcome! On this website, you'll find information regarding New York City's population and demographic breakdowns.
+
+In the navigation bar at the top right of the page, you will find:
+
+-   An interactive ArcGIS Dashboard visualizing population in NYC by zip code.
+
+-   Information regarding the data used in the visualization.
+
+-   An example Open Letter Template that can be modified and used to contact your local representative(s).
+
+-   Some information about this website—and me!

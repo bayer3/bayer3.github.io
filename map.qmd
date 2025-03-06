@@ -1,0 +1,21 @@
+---
+title: "Mapping Dashboard"
+---
+
+::: callout-note
+## Darker shades show zip codes with larger populations.
+:::
+
+::: column-screen-inset
+<iframe width="100%" height="900" src="https://www.arcgis.com/apps/dashboards/a7560fe23ab4409c8003790fe59d3a52" title="ArcGIS Dashboard">
+
+</iframe>
+:::
+
+<div>
+
+::: callout-tip
+## Click on zip codes of interest to see a popup with the full breakdown of demographic info.
+:::
+
+</div>

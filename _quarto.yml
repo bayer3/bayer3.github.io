@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "WebGIS: NYC Population"
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Map"
+        href: map.qmd
+      - text: "Data"
+        href: data.qmd
+      - text: "Open Letter"
+        href: open_letter.qmd   
+      - text: "About"
+        href: about.qmd
+      - icon: github
+        href: https://github.com/bayer3
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+     light: litera
+    css: styles.css
+    toc: false
+    
+editor: visual
+

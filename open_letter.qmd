@@ -1,0 +1,60 @@
+---
+title: " "
+execute:
+  echo: false
+---
+
+# *A Letter to the Mayor* \*
+
+\*Sample exercise only.
+
+### **Welcome! Please see the following selection and fill-in options to craft a personalized email to your elected official regarding NYC's growing population and resulting housing shortage.**
+
+```{ojs}
+viewof AddresseeTitle = Inputs.select(["Mayor", "Congressperson", "Borough President", "Council Member", "Mr.", "Mrs.", "Ms."], 
+      {value:"Mayor", label:"Addressee Title"})
+```
+
+```{ojs}
+viewof AddresseeName = Inputs.text({value: "Official's Name",label: "Addressee Name"})
+```
+
+```{ojs}
+viewof AuthorLetter = Inputs.text({value: "Your Name", label:"Your Name"})
+```
+
+#### Dear \${AddresseeTitle} \${AddresseeName},
+
+As I am sure you are aware, our beloved city is in the midst of a housing crisis.
+
+In particular, the City's housing crisis is marked by a severe shortage of affordable housing, driven by rising rents, stagnant wages, and a growing population. The City's real estate market is dominated by luxury developments, while low- and middle-income residents struggle with high rent prices and limited availability of affordable units. Moreover, gentrification has displaced long-time residents in many neighborhoods, exacerbating inequality. Finally, the City's zoning laws and slow pace of new construction have contributed to the lack of affordable housing options, creating significant barriers for those seeking stable, affordable homes.
+
+Different areas of the city are differentially impacted by the growing population. [This interactive map](https://www.arcgis.com/apps/dashboards/a7560fe23ab4409c8003790fe59d3a52) highlights NYC's population and demographic breakdown by zip code as of 2021; zip codes with larger populations are visualized in increasingly darker shades. The data comes from City and census sources.
+
+Additionally, you will find a simple breakdown of the top 5 most populous zip codes below:
+
+| Zip Code | Borough  | Population     |
+|----------|----------|----------------|
+| 11368    | Queens   | 113,741 people |
+| 11211    | Brooklyn | 107,788 people |
+| 11226    | Brooklyn | 101,747 people |
+| 11373    | Queens   | 101,548 people |
+| 11220    | Brooklyn | 101,225 people |
+
+To address the needs of the growing population, we propose taking the following targeted action.
+
+1.  Build affordable housing on existing empty lots
+2.  Amend restrictive zoning laws
+3.  Convert empty office spaces to apartments
+
+In particular I would like to emphasize the housing potential of formerly commercial spaces. Other regions of the country have had success turning former shopping malls into housing, and NYC's surplus of office space could be similarly revitalized.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J1GIF6VNipE?si=0Rd-57RAKA_q-YDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+I look forward to your response and to working together!
+
+Sincerely,
+
+\${AuthorLetter}

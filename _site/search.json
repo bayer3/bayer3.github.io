@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "WebGIS: NYC Population",
+    "section": "",
+    "text": "In the navigation bar at the top right of the page, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be modified and used to contact your local representative(s).\nSome information about this website—and me!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The Assignment: To build our own multi-page website, bring together components from previous labs, and showcase geospatial data.\nThe Programming: This webpage was built with RStudio and Quarto, using HTML, JavaScript, and CSS languages. It also includes pages originally made in Observable (see: Open Letter) and with ArcGIS Online’s Dashboard (see: Map)."
+  },
+  {
+    "objectID": "open_letter.html",
+    "href": "open_letter.html",
+    "title": "A Letter to the Mayor *",
+    "section": "",
+    "text": "A Letter to the Mayor *\n*Sample exercise only.\n\nWelcome! Please see the following selection and fill-in options to craft a personalized email to your elected official regarding NYC’s growing population and resulting housing shortage.\n\nviewof AddresseeTitle = Inputs.select([\"Mayor\", \"Congressperson\", \"Borough President\", \"Council Member\", \"Mr.\", \"Mrs.\", \"Ms.\"], \n      {value:\"Mayor\", label:\"Addressee Title\"})\n\n\n\n\n\n\n\nviewof AddresseeName = Inputs.text({value: \"Official's Name\",label: \"Addressee Name\"})\n\n\n\n\n\n\n\nviewof AuthorLetter = Inputs.text({value: \"Your Name\", label:\"Your Name\"})\n\n\n\n\n\n\n\nDear  ,\nAs I am sure you are aware, our beloved city is in the midst of a housing crisis.\nIn particular, the City’s housing crisis is marked by a severe shortage of affordable housing, driven by rising rents, stagnant wages, and a growing population. The City’s real estate market is dominated by luxury developments, while low- and middle-income residents struggle with high rent prices and limited availability of affordable units. Moreover, gentrification has displaced long-time residents in many neighborhoods, exacerbating inequality. Finally, the City’s zoning laws and slow pace of new construction have contributed to the lack of affordable housing options, creating significant barriers for those seeking stable, affordable homes.\nDifferent areas of the city are differentially impacted by the growing population. This interactive map highlights NYC’s population and demographic breakdown by zip code as of 2021; zip codes with larger populations are visualized in increasingly darker shades. The data comes from City and census sources.\nAdditionally, you will find a simple breakdown of the top 5 most populous zip codes below:\n\n\n\nZip Code\nBorough\nPopulation\n\n\n\n\n11368\nQueens\n113,741 people\n\n\n11211\nBrooklyn\n107,788 people\n\n\n11226\nBrooklyn\n101,747 people\n\n\n11373\nQueens\n101,548 people\n\n\n11220\nBrooklyn\n101,225 people\n\n\n\nTo address the needs of the growing population, we propose taking the following targeted action.\n\nBuild affordable housing on existing empty lots\nAmend restrictive zoning laws\nConvert empty office spaces to apartments\n\nIn particular I would like to emphasize the housing potential of formerly commercial spaces. Other regions of the country have had success turning former shopping malls into housing, and NYC’s surplus of office space could be similarly revitalized.\n\n\nI look forward to your response and to working together!\nSincerely,"
+  },
+  {
+    "objectID": "index.html#welcome-to-my-lab-03-website",
+    "href": "index.html#welcome-to-my-lab-03-website",
+    "title": "New York City Population and Demographic Overview, 2021",
+    "section": "",
+    "text": "In the navigation menu at the top of this website, you will find:\n\nA link to an interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be used to contact and inform your local representative.\nSome information about this webpage—and me!"
+  },
+  {
+    "objectID": "open_letter.html#a-letter-to-the-mayor",
+    "href": "open_letter.html#a-letter-to-the-mayor",
+    "title": "Open Letter",
+    "section": "",
+    "text": "*Sample lab exercise only.\n\n\n\nviewof AddresseeTitle = Inputs.select([\"Mayor\", \"Congressperson\", \"Borough President\", \"Council Member\", \"Mr.\", \"Mrs.\", \"Ms.\"], \n      {value:\"Mayor\", label:\"Addressee Title\"})\n\n\n\n\n\n\n\nviewof AddresseeName = Inputs.text({value: \"Official's Name\",label: \"Addressee Name\"})\n\n\n\n\n\n\n\nviewof AuthorLetter = Inputs.text({value: \"Your Name\", label:\"Your Name\"})\n\n\n\n\n\n\nDear  ,\nAs I am sure you are aware, our beloved city is in the midst of a housing crisis.\nIn particular, the City’s housing crisis is marked by a severe shortage of affordable housing, driven by rising rents, stagnant wages, and a growing population. The City’s real estate market is dominated by luxury developments, while low- and middle-income residents struggle with high rent prices and limited availability of affordable units. Moreover, gentrification has displaced long-time residents in many neighborhoods, exacerbating inequality. Finally, the City’s zoning laws and slow pace of new construction have contributed to the lack of affordable housing options, creating significant barriers for those seeking stable, affordable homes.\nDifferent areas of the city are differentially impacted by the growing population. This interactive map highlights NYC’s population and demographic breakdown by zip code as of 2021; zip codes with larger populations are visualized in increasingly darker shades. The data comes from City and census sources.\nAdditionally, you will find a simple breakdown of the top 5 most populous zip codes below:\n\n```{ojs}\n| Zip Code | Borough | Population |\n| ------ | ------ | ------|\n| 11368 | Queens | 113,741 people |\n| 11211 | Brooklyn | 107,788 people |\n| 11226 | Brooklyn | 101,747 people |\n| 11373 | Queens | 101,548 people |\n| 11220 | Brooklyn | 101,225 people |\n\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 37, column 1)Unexpected token\n\n\n\n\n\n\n\n\nTo address the needs of the growing population, we propose taking the following targeted action.\n\nBuild affordable housing on existing empty lots\nAmend restrictive zoning laws\nConvert empty office spaces to apartments\n\nIn particular I would like to emphasize the housing potential of formerly commercial spaces. Other regions of the country have had success turning former shopping malls into housing, and NYC’s surplus of office space could be similarly revitalized.\n\n```{ojs}\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/J1GIF6VNipE?si=0Rd-57RAKA_q-YDd\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen&gt;&lt;/iframe&gt;\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 56, column 1)Unexpected token\n\n\n\n\n\n\n\n\nI look forward to your response and to working together!\nSincerely,"
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Mapping Dashboard",
+    "section": "",
+    "text": "Darker shades show zip codes with larger populations.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick on zip codes of interest to see a popup with the full breakdown of demographic info."
+  },
+  {
+    "objectID": "about.html#hi-my-name-is-ella-bayer-and-i-am-an-ms-student-in-the-geoinformatics-program-at-hunter-college-nyc.-this-website-was-built-as-part-of-an-assignment-for-my-webgis-class.",
+    "href": "about.html#hi-my-name-is-ella-bayer-and-i-am-an-ms-student-in-the-geoinformatics-program-at-hunter-college-nyc.-this-website-was-built-as-part-of-an-assignment-for-my-webgis-class.",
+    "title": "About",
+    "section": "",
+    "text": "The Assignment: To build our own multi-page website, bring together components from previous labs, and showcase geospatial data.\nThe Programming: This webpage was built with RStudio and Quarto, using HTML, JavaScript, and CSS languages. It also includes pages originally made in Observable (see: Open Letter) and with ArcGIS Online’s Dashboard (see: Map)."
+  },
+  {
+    "objectID": "index.html#here-you-will-find-information-regarding-the-nyc-population-and-demographic-breakdown-from-the-year-2021.",
+    "href": "index.html#here-you-will-find-information-regarding-the-nyc-population-and-demographic-breakdown-from-the-year-2021.",
+    "title": "New York City Population and Demographic Overview, 2021",
+    "section": "",
+    "text": "In the navigation bar at the top right of this website, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be used to contact and inform your local representative.\nSome information about this webpage—and me!"
+  },
+  {
+    "objectID": "map.html#click-on-zip-codes-of-interest-to-see-a-popup-with-the-full-breakdown-of-demographic-info.",
+    "href": "map.html#click-on-zip-codes-of-interest-to-see-a-popup-with-the-full-breakdown-of-demographic-info.",
+    "title": "Map",
+    "section": "Click on zip codes of interest to see a popup with the full breakdown of demographic info.",
+    "text": "Click on zip codes of interest to see a popup with the full breakdown of demographic info."
+  },
+  {
+    "objectID": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown-from-the-year-2021.",
+    "href": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown-from-the-year-2021.",
+    "title": "WebGIS Lab 03",
+    "section": "",
+    "text": "In the navigation bar at the top right of the page, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be used to contact and inform your local representative(s).\nSome information about this webpage—and me!"
+  },
+  {
+    "objectID": "index.html#on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown-from-the-year-2021.",
+    "href": "index.html#on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown-from-the-year-2021.",
+    "title": "WebGIS Lab 03",
+    "section": "On this website, you’ll find information regarding New York City’s population and demographic breakdown from the year 2021.",
+    "text": "On this website, you’ll find information regarding New York City’s population and demographic breakdown from the year 2021.\nIn the navigation bar at the top right of the page, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be used to contact and inform your local representative(s).\nSome information about this webpage—and me!"
+  },
+  {
+    "objectID": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown-from-the-year-2010.",
+    "href": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown-from-the-year-2010.",
+    "title": "WebGIS Lab 03",
+    "section": "",
+    "text": "In the navigation bar at the top right of the page, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be used to contact and inform your local representative(s).\nSome information about this webpage—and me!"
+  },
+  {
+    "objectID": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown.",
+    "href": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdown.",
+    "title": "WebGIS Lab 03",
+    "section": "",
+    "text": "In the navigation bar at the top right of the page, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be used to contact and inform your local representative(s).\nSome information about this webpage—and me!"
+  },
+  {
+    "objectID": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdowns.",
+    "href": "index.html#welcome-on-this-website-youll-find-information-regarding-new-york-citys-population-and-demographic-breakdowns.",
+    "title": "WebGIS: NYC Population",
+    "section": "",
+    "text": "In the navigation bar at the top right of the page, you will find:\n\nAn interactive ArcGIS Dashboard visualizing population in NYC by zip code.\nInformation regarding the data used in the visualization.\nAn example Open Letter Template that can be modified and used to contact your local representative(s).\nSome information about this website—and me!"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "The data presented in the visualizations and open letter on this website come from the Census Bureau. Population and demographic information are presented at the “Zip Code Tabulation Area” (ZCTA) level. More information about Census Bureau datasets and ZCTAs can be found at the links below.\nCensus Data\nZCTAs"
+  },
+  {
+    "objectID": "about.html#hi-my-name-is-ella-bayer-and-i-am-an-ms-student-in-the-geoinformatics-at-hunter-college-nyc.-this-website-was-built-as-part-of-an-assignment-for-my-webgis-class.",
+    "href": "about.html#hi-my-name-is-ella-bayer-and-i-am-an-ms-student-in-the-geoinformatics-at-hunter-college-nyc.-this-website-was-built-as-part-of-an-assignment-for-my-webgis-class.",
+    "title": "About",
+    "section": "",
+    "text": "The Assignment: To build our own multi-page website, bring together components from previous labs, and showcase geospatial data.\nThe Programming: This webpage was built with RStudio and Quarto, using HTML, JavaScript, and CSS languages. It also includes pages originally made in Observable (see: Open Letter) and with ArcGIS Online’s Dashboard (see: Map)."
+  }
+]
